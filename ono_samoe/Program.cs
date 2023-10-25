@@ -11,3 +11,18 @@
 // Делаем 2 массива
 string[] array1 = new string[] {"1234", "156", "-2", "computer", "science","hello", "wo"};
 string[] array2 = new string[array1.Length];
+
+
+// Задаем метод с проверкой
+void SecondArray(string[] array1, string[] array2)
+{
+     int arr = 0;
+    for(int i = 0; i < array1.Length; i++)
+    {
+    if(array1[i].Length <= 3)
+        {
+        array2[arr] = array1[i];
+        arr++;
+        }
+    }
+}

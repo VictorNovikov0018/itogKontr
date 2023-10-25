@@ -7,3 +7,7 @@
 // [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
+
+// Делаем 2 массива
+string[] array1 = new string[] {"1234", "156", "-2", "computer", "science","hello", "wo"};
+string[] array2 = new string[array1.Length];

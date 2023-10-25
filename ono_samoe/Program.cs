@@ -36,3 +36,8 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
+
+// Вывод
+SecondArray(array1, array2);
+PrintArray(array1);
+PrintArray(array2);

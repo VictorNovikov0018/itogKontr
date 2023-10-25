@@ -13,7 +13,7 @@ string[] array1 = new string[] {"1234", "156", "-2", "computer", "science","hell
 string[] array2 = new string[array1.Length];
 
 
-// Задаем метод с проверкой
+// Задаем метод с проверкой (если < или = 3, то элемент попадает во второй массив)
 void SecondArray(string[] array1, string[] array2)
 {
      int arr = 0;
@@ -26,3 +26,4 @@ void SecondArray(string[] array1, string[] array2)
         }
     }
 }
+
